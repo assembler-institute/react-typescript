@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/HugeVengefulAmericanbittern-size_restricted.gif");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Press Start 2P";
+
+}
+
+.login-button{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}

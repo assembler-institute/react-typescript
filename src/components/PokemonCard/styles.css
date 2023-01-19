@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+}
+.pokeCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../../assets/images/pokeball-transparent.png');
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background-color: #cdcda8;
+  font-family: "Press Start 2P";
+}
+.pokemon_name{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.normal {
+  background-color: #cdcda8;
+}
+
+.fire {
+  background-color: #f6a66c;
+}
+.fighting {
+  background-color: #e9625a;
+}
+.water {
+  background-color: #98b6ff;
+}
+.flying {
+  background-color: #c2b1f6;
+}
+
+.grass {
+  background-color: #92e469;
+}
+.poison {
+  background-color: #c080c0;
+}
+
+.electric {
+  background-color: #f8e084;
+}
+.e .ground {
+  background-color: #f8dd95;
+}
+
+.psychic {
+  background-color: #f488a9;
+}
+
+.rock {
+  background-color: #dcc873;
+}
+.ice {
+  background-color: #b7f3f3;
+}
+.bug {
+  background-color: #cfdf46;
+}
+.dragon {
+  background-color: #b8a0f8;
+}
+
+.ghost {
+  background-color: #9d84c7;
+}
+.dark {
+  background-color: #967f6f;
+}
+.steel {
+  background-color: #dcdcf0;
+}
+.fairy {
+  background-color: #ffd9dd;
+}
