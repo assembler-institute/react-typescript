@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Press Start 2P";
-  src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+  font-family: 'Press Start 2P';
+  src: url('../../assets/fonts/PressStart2P-Regular.ttf');
 }
 .pokeCard {
   display: flex;
@@ -16,9 +16,9 @@
   border-radius: 20px;
   border: 2px solid #000;
   background-color: #cdcda8;
-  font-family: "Press Start 2P";
+  font-family: 'Press Start 2P';
 }
-.pokemon_name{
+.pokemon_name {
   font-size: 1.5rem;
   font-weight: bold;
   color: #000;
@@ -83,4 +83,9 @@
 }
 .fairy {
   background-color: #ffd9dd;
+}
+
+.pokeCard > img {
+  width: 150px;
+  height: 150px;
 }

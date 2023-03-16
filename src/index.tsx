@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { Auth0Provider } from '@auth0/auth0-react'
 import Router from './router/Router'
+import { Toaster } from 'react-hot-toast'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,6 +16,7 @@ root.render(
       redirectUri={window.location.origin + '/home'}
     >
       <Router />
+      <Toaster />
     </Auth0Provider>
   </React.StrictMode>
 )

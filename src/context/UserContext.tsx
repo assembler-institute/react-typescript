@@ -1,12 +1,12 @@
 import React, { createContext, useState } from 'react'
 
 interface CurrentUserContextType {
-    username: string;
-  }
+  username: string;
+}
 
 interface UpdateCurrentUserContextType {
-    currentUser: CurrentUserContextType;
-    updateCurrentUser: (username: string) => void;
+  currentUser: CurrentUserContextType;
+  updateCurrentUser: (username: string) => void;
 }
 
 const CurrentUserContext = createContext<UpdateCurrentUserContextType>({
@@ -15,12 +15,12 @@ const CurrentUserContext = createContext<UpdateCurrentUserContextType>({
 })
 
 type Props = {
-    children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 const UserContext = ({ children }: Props) => {
   const [currentUser, setCurrentUser] = useState<CurrentUserContextType>({
-    username: 'filiptammergard'
+    username: ''
   })
 
   const updateCurrentUser = (username: string) => {
